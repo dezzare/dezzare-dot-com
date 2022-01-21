@@ -1,28 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.navbar {
-  background-color: black;
+.body {
+  background: black;
+}
+
+header .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: flex;
+  align-items: left;
 
 }
 
-.padding-logo {
-  padding-left: 4rem;
-  padding-right: 4rem;
-  
+header nav {
+  margin-left: 80px;
+
 }
+
+header nav a {
+  font-size: x-large;
+  margin-right: 10px;
+
+}
+
+
 .home {
   background-color: #282A36;
   color: #FFFFFF
 }
 
-.welcome{
+.welcome {
   padding-top: 2rem;
   font-size: 3rem;
 }
 
-.padding-nav {
-  padding-left: 2rem;
-  font-size: x-large;
-}
 
 .img-crop {
   display: block;
@@ -39,18 +55,20 @@
   height: 150%;
   width: auto;
 }
+
 .texto {
   width: 60%;
   font-size: 1.5rem;
- margin-left: auto;
- margin-right: auto;
- text-indent: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 8%;
 }
 
-.paragrafos{
+.paragrafos {
   margin-left: auto;
   margin-right: auto;
 }
+
 .tools {
   color: white;
   background-color: #303443;
