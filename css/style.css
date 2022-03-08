@@ -75,11 +75,6 @@ header nav a {
   padding-bottom: 50px;
 }
 
-.about {
-  background-color: #282A36;
-  color: #FFFFFF
-}
-
 .padding-top {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -96,6 +91,65 @@ header nav a {
   padding-bottom: 20px;
 }
 
-.footer {
-  background-color: black;
+
+.contact {
+  background-color: #282A36;
+  color: #FFFFFF;
+ 
 }
+
+.contact-form {
+  background-color: #282A36;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.contact-input {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.button {
+  padding: 10px 0;
+  width: 100%;
+}
+
+input:focus~label, 
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+
+/* .footer {
+  background-color: black;
+} */

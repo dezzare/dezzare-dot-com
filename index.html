@@ -2,14 +2,16 @@
 <html lang="pt-BR">
 
 <head>
-  <title>Minha Página</title>
+  <title>.dezzare.</title>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=VT323&display=swap"
+    rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link type="text/css" href="css/style.css" rel="stylesheet" charset="utf-8">
+  <script src="https://kit.fontawesome.com/8f316c6f25.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="body">
@@ -26,9 +28,9 @@
           <li class="nav-item ">
             <a class="nav-link" href="#tools">Tools</a>
           </li>
-          <li class="nav-item ">
+          <!-- <li class="nav-item ">
             <a class="nav-link" href="#about">About</a>
-          </li>
+          </li> -->
           <li class="nav-item ">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -49,12 +51,11 @@
 
 
       <div class="texto ">
-        <p> I'm a graduate in Law and was a practicing lawyer for 12 years. Now I'm studying for one more degree; Development Information Technology.</p>
-        <p> It's clear to me that skills can be taught, and I will always be pursuing knowledge and pushing myself to be a better person.</p>
-   
-        <p>I started learning Python but changed to JavaScript because I got more material about it. I'm mostly focused on the back-end, with Node.js. And, for 2022, I want to learn one of these languages: Rust, C++, Go or Elixir.
-        </p>
-
+        <p> I'm a graduate in Law and was a practicing lawyer for 12 years. Now I'm studying for one more degree;
+          Development Information Technology.</p>
+        <p> It's clear to me that skills can be taught/learned, and I will always be pursuing knowledge and pushing
+          myself to be a better person.</p>
+        <p>I began to code with Python and JavaScript, then got into TypeScript, and currently learning Rust.</p>
       </div>
     </div>
   </section>
@@ -73,7 +74,7 @@
             <img class="icon" src="images/icons/git.svg">
             <img class="icon" src="images/icons/npm.svg">
             <img class="icon" src="images/icons/docker.svg">
-            
+
           </div>
         </div>
       </div>
@@ -81,27 +82,52 @@
     </div>
   </section>
 
-  <section id="about">
+  <!-- <section id="about">
     <div class="container-fluid about text-center padding-top">
       <h3>Contact</h3>
-
-      <p>teste</p>
-    </div>
-  </section>
-
-  <!-- <section id="contact">
-    <div class="container-fluid contact text-center padding-top">
-      <h3>Contact</h3>
-
+      
       <p>teste</p>
     </div>
   </section> -->
 
-  <footer>
+  <!-- !!!
+  <section id="contact" class="contact text-center padding-top">
+    <h3>Contact</h3>
+    <div class="container-fluid contact-form text-center padding-top">
+      <form>
+        <div class="contact-input">
+          <input type="text" id="name" required>
+          <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+        </div>
+        <div class="contact-input">
+          <input type="email" id="email" required>
+          <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+        </div>
+        <div class="contact-input">
+          <input type="text" id="subject" required>
+          <label for="subject"><i class="fa-solid fa-comment-dots"></i> Subject</label>
+        </div>
+        <div class="contact-input">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"> <i class="fa-solid fa-bars"></i> Your Message</label>
+        </div>
+        <button type="submit" value="submit" class="button btn btn-outline-secondary">SUBMIT <i
+            class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+  -->
+
+  <footer id="contact" class="contact text-center padding-top">
     <div class="container-fluid footer text-center padding-top">
-      <img class="icon" src="images/icons/linkedin.svg">
-      <img class="icon" src="images/icons/twitter.svg">
-      <img class="icon" src="images/icons/github.svg">
+      <a href="https://www.linkedin.com/in/pedrombittencourt" target="_blank"><img alt="linkedin" class="icon"
+          src="images/icons/linkedin.svg"></a>
+      <a href="https://twitter.com/dezzaremusic" target="_blank"><img alt="twitter" class="icon"
+          src="images/icons/twitter.svg"></a>
+      <a href="https://github.com/dezzare" target="_blank"><img alt="github" class="icon"
+          src="images/icons/github.svg"></a>
+      <a href="mailto:dezzare@dezzare.com" target="_blank"> <img alt="email" class="icon"
+          src="images/icons/mail.svg"></a>
     </div>
   </footer>
 </body>
